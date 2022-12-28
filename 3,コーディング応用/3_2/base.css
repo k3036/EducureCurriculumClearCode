@@ -1,0 +1,304 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* 上の部分は気にせずここから書く */
+
+
+
+.box2 p1 {/*画像の位置子供2人、画像文字ボタンの位置*/
+	font-size: 25px;
+    position: relative;
+	width:auto;
+}
+
+.ro{color:white/*文字色*/
+}
+.ro{
+	position: absolute;
+	bottom: 50%;
+	left:15%;
+	font-size: 25px;
+}
+
+.button02 a {/*縄跳び・ロープ寄付はこちらからbutton怪しい*/
+	display: flex;
+	padding: 1em 2em;
+	width: 23%;
+	color: black;
+	font-size: 14px;
+	font-weight: 1000;
+	background-color:white;
+	border-radius: 100vh;
+	position: relative;
+	bottom:140px;
+	left:220px;
+}
+
+
+
+
+
+
+
+
+.flex {
+display: flex; /*ロゴと文字の横並び*/
+
+}
+.flex .image {
+width: 640px; /*ロゴ文字サイズ指定ROPEASE PROJECT*/
+}
+.flex .text {/*ROPEASE PROJECTの位置と大きさと太字*/
+font-size: 30px;
+font-weight: bold;/*太字*/
+}
+
+
+
+/*リンクを黒字*/
+a{color:black}
+/*リンク全体を左に150px*/
+/*.flex{
+    margin-left:150px;
+} */
+
+
+
+.p0{
+	font-size: 30px;
+	font-weight: bold;/*太字*/
+}
+
+.under {/*アンダーラインの色*/
+	text-decoration :3px solid underline red;
+position: relative;
+bottom:475px;
+}
+
+.efg{/*ボックスの影*/
+	box-shadow: 4px 4px 4px gray;
+}
+
+
+.button03 a {
+	display: flex;
+
+	padding: 1em 2em;
+	width: 280px;
+	color: black;
+	font-size: 13px;
+	font-weight: 700;
+	background-color: white;
+	border-radius: 100vh;
+
+}
+.button03{/*画像の位置子供2人、画像文字ボタンの位置*/
+	position: relative;
+    top: 150px;
+    left: 500px;
+}
+p2{color:white}/*指定タグ文字色*/
+p2{position:relative;top: 40px;left:-10px;}/*文章本体の位置指定*/
+p2{}/*指定タグ文章本体の中央寄せ*/
+p2{font-size:25px;}
+
+
+
+
+
+div.box5 {/*フッターのライン*/
+    border-top: 1px solid white;
+    position: relative;
+	top: 1060px;
+}
+footer {/*フッターの位置*/
+	position: relative;
+	left: 0;
+	right: 0;
+	top:0px;
+	bottom: 0;
+	width: 100%;/*文字位置*/
+	height: 100px;/*文字位置*/
+	color:white;/*字の色*/
+
+}
+
+.ABC{
+	width:300px;
+	height:300px;
+}
+
+.DOG{
+	width:300px;
+	height:300px;
+}
+
+.WO{
+	width:480px;
+	height:270px;
+}
+
+
+
+li{/*ヘッドリンク横並び*/
+	float: right;
+}
+.zzz{
+    display: flex;/*画面にflexを適用*/
+    justify-content: center;
+    flex-wrap: wrap;/*floatでの横並び維持*/
+}
+
+
+
+.zzz{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.cover {/*赤っぽい下の画像*/
+	width: 1280px;
+	height: 300px;
+	background-image: url("../3_2/images/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	top:1110px;
+}
+
+.box2 {/*赤っぽいライン上の背景画像の各指定*/
+	background: url("../3_2/images/bg.png"); /* 背景画像を指定 */
+	width: 1280px;   /* 画像にあわせて適当な幅を指定 */
+	height:390px;
+	position: absolute;
+	top:10%;
+}
+
+
+
+
+.top{
+	position: absolute;
+	color: white;
+	top:1800px;
+	left: 420px;
+}
+.flex{/*static,relative,absolute,fixed,stickyやはりどれも画面サイズで崩れる*/
+	/*position:static;
+	top:1000px;*/
+}
+
+
+ul.example li {/*リンクの位置*/
+	display: inline;
+	margin-right: 10px;
+	position: relative;
+	left:20%;
+	margin-top:2%;
+	}
+
+	.flex {
+		display: flex; /*ロゴと文字の横並び*/
+		text-align: center;
+		margin-top: 0;
+	  }
+	  .flex .image {
+		width: 640px; /*ロゴ文字サイズ指定ROPEASE PROJECT*/
+		position: relative;
+		right:110px;
+		margin-top:0;
+		display: inline;
+	  }
+	  .flex .text {/*ROPEASE PROJECTの位置と大きさと太字*/
+		
+		font-size: 30px;
+		font-weight: bold;/*太字*/
+		position: absolute;
+		top:1%;
+	  }
+
+	  .tok{
+		  position: relative;
+		  margin-top: -6%;
+	  }
+	  .topp{/*OK*/
+		  position:relative;
+		  top:20px;
+		  left:700px;
+}
+
+body,
+#wrapper {/*body全体を中央寄せOK*/
+/*display: flex;
+flex-direction: column;
+min-height: 100vh;
+margin: 0 auto;
+position: relative;
+top:5700px;
+/*overflow: hidden;*/
+/*margin: 0 5vw;  /*指定した値が[上下左右]のマージン*/
+
+display: flex;
+flex-direction: column;/*上から下に並べる*/
+/*justify-content:配置方法;*/
+/*サイト幅1280px*/
+max-width: 1280px;
+margin:auto;
+margin-top: 0 ;
+}
+
+
+.button03{
+	position: absolute;
+
+}
+
+
+
+/*見えない余白をラインであぶりだす。
+
+*{
+    outline: 2px red solid;
+}
+
+*/
+
+
+
+

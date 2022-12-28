@@ -1,0 +1,77 @@
+.pict {/*SERVICE下の画像1枚目*/
+	display:flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	text-align: right;
+	position:absolute;
+	top: 450px;/*縦位置*/
+	width: 54.5%;/*横位置*/
+	text-align: center;
+}
+
+
+.text{/*ここまでSERVICE下の画像1枚目の指定*/
+	font-size: 1px;
+	position: absolute;
+	left:250px;
+	top: 220px;
+	margin: 0 auto;
+	text-align:center;
+	width: 100%;
+}
+
+.pic{/*SERVICE下の画像２枚目*/
+	display:flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	text-align: left;
+	position: absolute;
+	top: 450px;/*縦位置*/
+	width: 1070px;/*横位置*/
+	height:auto;
+	margin: 0 auto;
+}
+
+
+
+.text1{/*ここまでSERVICE下の画像2枚目のtext指定*/
+	font-size: 1px;
+	position: fixed;
+	right:10px;
+	top: 100px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+
+.pi{/*SERVICE下の画像3枚目*/
+	display:flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	text-align: left;
+	position: absolute;
+	top: 450px;/*縦位置*/
+	left:635px;/*横位置*/
+	height:auto;
+	margin: 0 auto;
+
+
+}
+
+.hhh{/*横並びさせた画像のサイズ*/
+	width:180px;
+	height:100px;
+	margin: 0 auto;
+}
+
+
+
+.text2{      /*ここまでSERVICE下の画像3枚目のtext指定*/
+	font-size: 1px;
+	position: fixed;
+	right:10px;
+	top: 200px;
+	margin: 0 auto;
+	width: 100%;
+}

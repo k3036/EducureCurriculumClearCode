@@ -1,0 +1,881 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* 上の部分は気にせずここから書く */
+main{
+	margin: 0 auto;
+	width: 100%;
+}
+header{
+	margin: 0 auto;
+	width: 100%;
+}
+footer{
+	margin: 0 auto;
+	width: 100%;
+}
+.body{
+	width: 980px;
+}
+
+
+
+
+
+
+
+
+.three{/*５個横並びの左右２個*/
+	color:#279b8f;
+	background-color:#279b8f;
+	text-decoration: none;
+	font-size:20px;
+	padding:5px;
+    width:310px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.blockarea{
+    display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 20px;
+	gap:  5px; /* button間の間隔 */
+	margin: 0 auto;
+}
+
+.three_block_item {/*3button*/
+	width: 100%;
+	color:white;
+	background-color:#279b8f;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+
+   .three_block_item p{/*3buttonSizeと文字位置*/
+	text-align:center;
+	padding: 5px;/*大きさ*/
+	width: 250px;
+	margin: 0 auto;
+  }
+  
+   .three_block_item:hover {/*3buttonのセレクタ*/
+	color:#fff;
+	background-color:#698AAB;
+  }
+  
+
+  /*.three_block_item:hover p{
+	color:#fff;
+  }*/
+  
+  /*.clear{
+	clear:both;
+  }*/
+
+  ul {
+	display: flex;/*要素の並列箇条書き*/
+  }
+
+  /*.head.div{
+	  text-align: center;
+	  margin:0 auto;
+	  width:100%;
+  }*/
+
+.aaa{/*緑のVISION*/
+	height:auto;
+	width: 45%;
+	margin :0 auto;
+	color:white;
+	background-color:#279b8f;
+	text-decoration: none;
+	font-size:30px;
+	position: absolute;
+	padding: 10px;/*太さ*/
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left: 20%;
+	top: 160px;/*縦位置*/
+}
+
+.aaa0{/*緑のCOMPANY*/
+	height:auto;
+	width: 45%;
+	margin :0 auto;
+	color:white;
+	text-decoration: none;
+	font-size:30px;
+	position: absolute;
+	padding: 10px;/*太さ*/
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left: 20%;
+	top: 650px;/*縦位置*/
+}
+
+.aaaa{/*緑のVISION*/
+	height:auto;
+	width: 45%;
+	margin :0 auto;
+	color:white;
+	background-color:#279b8f;
+	text-decoration: none;
+	font-size:30px;
+	position: absolute;
+	padding: 10px;/*太さ*/
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left: 20%;
+	top: 800px;/*縦位置*/
+}
+
+.body {/*ヘッダー３buttonの位置*/
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #eaeaea;
+}
+
+.ddd{/*ヘッダーrogo画像の位置*/
+	position: absolute;
+	left:300px;
+	top: 0px;
+}
+
+
+
+li.aa{/*箇条書き*/
+	font-size:10px;
+	position: absolute;
+	left: 250px;
+	top: 250px;
+	font-weight: bold;
+
+	list-style-type: disc;/* リストの左側に黒丸 */
+	margin-left: 30px;/* リストの左側に余白 */
+	text-align: left;
+}
+li.bb{/*箇条書き*/
+	font-size:10px;
+	position: absolute;
+	left: 250px;
+	top: 260px;
+	font-weight: bold;
+	list-style-type: disc;/* リストの左側に黒丸 */
+	margin-left: 30px;/* リストの左側に余白 */
+	text-align: left;
+	padding: 20px 0;/*上下行間*/
+}
+li.cc{/*箇条書き*/
+	font-size:10px;
+	position: absolute;
+	left: 250px;
+	top: 270px;
+	font-weight: bold;
+
+	list-style-type: disc;/* リストの左側に黒丸 */
+	margin-left: 30px;/* リストの左側に余白 */
+	text-align: left;
+	padding: 40px 0;/*上下行間*/
+}
+
+.bbb{/*箇条書き*/
+	font-size:10px;
+	position: absolute;
+	left: 597px;
+	top: 270px;
+	font-weight: bold;
+	text-align: left;
+	padding: 40px 0;/*上下行間*/
+}
+
+
+
+.delivery_list li {/*箇条書き*/
+	list-style-type: disc;/* リストの左側に黒丸 */
+	margin-left: 24px;/* リストの左側に余白 */
+	text-align: left;
+}
+
+.te{
+	position: relative;
+	right: -230px;
+
+}
+/*ここから並べ*/
+.wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 1px 1px; /* 余白 */
+  }
+  
+  .item1 {
+	width: 32%;
+	background-color: #fff;
+	position: absolute;
+	left:250px;
+	top: 430px;
+	font-size: 10px;
+	gap: 6px 4px; /* 余白 */
+  }
+
+  .item2{
+	width: 32%;
+	background-color: #fff;
+	position: absolute;
+	left: 443px;
+	top: 430px;
+	font-size: 10px;
+  }
+
+  .item3{
+	width: 32%;
+	background-color: #fff;
+	position: absolute;
+	right:217px;
+	top: 430px;
+	font-size: 10px;
+  }
+
+  .eyu{
+	width:180px;
+	height:110px;
+
+   }
+
+.ey{
+	width: 180px;
+	height: 110px;
+}
+
+
+  /*ここまで並べ*/
+
+  .aa0{/*緑のSERVICE*/
+	height:auto;
+	width: 45%;
+	margin :0 auto;
+	color:white;
+	background-color:#279b8f;
+	text-decoration: none;
+	font-size:30px;
+	position: absolute;
+	padding: 10px;/*太さ*/
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left: 20%;
+	top: 350px;/*縦位置*/
+}
+
+/*テキスト同士の横並び*/
+.example{
+    display: flex;
+}
+.example>div{
+    width:250px;
+}
+.example{
+	position: absolute;
+	top: 750px;
+	right:510px;
+    margin:0 auto;
+}
+
+
+.example1{
+    display: flex;
+}
+.example1>div{
+    width:250px;
+}
+.example1{
+	position: absolute;
+	top: 780px;
+	right:510px;
+    margin:0 auto;
+}
+
+
+.example2{
+    display: flex;
+}
+.example2>div{
+    width:250px;
+}
+.example2{
+	position: absolute;
+	top: 810px;
+	right:510px;
+    margin:0 auto;
+}
+
+.example3{
+	display: flex; /* flexbox */
+	flex-wrap: wrap; /* 折返し指定 */
+}
+.example3>div{
+    width:250px;
+}
+.example3{
+	position: absolute;
+	top: 840px;
+	right:510px;
+    margin:0 auto;
+
+}
+
+
+
+
+/*
+relative
+absolute
+fixed
+static
+sticky
+*/
+
+
+.top-banner{
+	display:flex;
+	flex-flow: column;
+	margin:0 auto;
+	text-align: center;
+}
+.top-banner li {
+	padding:1em;
+}
+.top-banner li {
+position: relative;
+margin:0 auto;
+text-align: center;
+left:350px;
+top:30px;
+}
+
+footer{
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+	background-color: #279b8f;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+
+.ee{
+	width: 100%;
+	text-align: center;
+	margin:top;
+	color:white;
+	position: absolute;
+	top: 10px;
+}
+
+div.box4{
+	position: relative;
+    border-top: 1px solid #279b8f;
+	text-align: center;
+	margin: 0 auto;
+	bottom: -600px;
+	border-width:1px;
+}
+
+div.box45{
+	position: relative;
+    border-top: 1px solid #279b8f;
+	text-align: center;
+	margin: 0 auto;
+	bottom: -480px;
+	border-width:2px;
+	width: 1325px;
+}
+
+.go{
+	width: 100%;
+	position:static;
+	top:100px;
+	right:-100px;
+
+}
+
+.eyy{
+	height:0px;
+	width: 0px;
+}
+
+.dogg{
+position: absolute;
+top:940px;
+right:600px;
+}
+
+
+
+
+
+@media screen and (max-width: 860px) {
+
+	.uiu{
+		position: relative;
+		left: 0px;
+	}
+	.ddd{
+		position: relative;
+		left:70px;
+		top:-70px;
+	}
+	.three_block_item {
+		position: relative;
+		left:0px;
+		top:-70px;
+	}
+
+	.three{/*５個横並びの左右２個*/
+		color:white;
+		background-color:white;
+		text-decoration: none;
+		font-size:20px;
+		padding:5px;
+		width:300px;
+		text-align: center;
+	}
+
+	
+	li.aa{/*箇条書き*/
+		font-size:20px;
+		position: absolute;
+		left: 0px;
+		top: 190px;
+		font-weight: bold;
+		list-style-type: disc;/* リストの左側に黒丸 */
+		text-align: left;
+	}
+	li.bb{/*箇条書き*/
+		font-size:20px;
+		position: absolute;
+		left: 0px;
+		top: 200px;
+		font-weight: bold;
+		list-style-type: disc;/* リストの左側に黒丸 */
+		text-align: left;
+		padding: 20px 0;/*上下行間*/
+	}
+	li.cc{/*箇条書き*/
+		font-size:20px;
+		position: absolute;
+		left: 0px;
+		top: 210px;
+		font-weight: bold;
+		list-style-type: disc;/* リストの左側に黒丸 */
+		text-align: left;
+		padding: 40px 0;/*上下行間*/
+	}
+	li.bbb{
+		font-size:20px;
+		position: absolute;
+		left: 10px;
+		top: 230px;
+		font-weight: bold;
+		list-style-type: disc;/* リストの左側に黒丸 */
+		text-align: left;
+		padding: 40px 0;/*上下行間*/
+	}
+	.sss{
+		position: absolute;
+		left: 0px;
+	}
+	.bbb{/*箇条書き*/
+		font-size:10px;
+		position: absolute;
+		left: 15px;
+		top: 225px;
+		font-weight: bold;
+		text-align: left;
+		padding: 40px 0;/*上下行間*/
+	}
+	.te{
+		position: relative;
+		right: 0px;
+	}
+
+
+
+
+	  .aaa{/*緑のVISION*/
+		height:auto;
+		width: 97%;
+		margin :0 auto;
+		color:white;
+		background-color:#279b8f;
+		text-decoration: none;
+		font-size:30px;
+		position: absolute;
+		padding: 10px;/*太さ*/
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		left: 0px;
+		top: -60px;/*縦位置*/
+	}
+
+	  .aa0{/*緑のSERVICE*/
+		height:auto;
+		width: 97%;
+		margin :0 auto;
+		color:white;
+		background-color:#279b8f;
+		text-decoration: none;
+		font-size:30px;
+		position: absolute;
+		padding: 10px;/*太さ*/
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		left: 0px;
+		top: 100px;/*縦位置*/
+	}
+
+	.aaa0{/*緑のCOMPANY*/
+		height:auto;
+		width: 97%;
+		margin :0 auto;
+		color:white;
+		background-color:#279b8f;
+		text-decoration: none;
+		font-size:30px;
+		position: absolute;
+		padding: 10px;/*太さ*/
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		left: 0px;
+		top: 800px;/*縦位置*/
+	}
+
+	.wrap {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 1px 1px; /* 余白 */
+	  }
+	  
+	  .item1 {
+		width: 80%;
+		background-color: #fff;
+		position: absolute;
+		left:-22px;
+		top: 412px;
+		font-size: 13px;
+		display:flex;/* flexbox */
+		justify-content:center; /* 水平方向 */
+		align-items: center; /* 垂直方向 */
+		text-align: center;
+		line-height: 250%;
+	  }
+	
+	  .item2{
+		width: 80%;
+		background-color: #fff;
+		position: absolute;
+		left:-20px;
+		top: 640px;
+		font-size: 13px;
+		display:flex;/* flexbox */
+		justify-content:center; /* 水平方向 */
+		align-items: center; /* 垂直方向 */
+		text-align: center;
+		line-height: 250%
+	  }
+	
+	  .item3{
+		width: 80%;
+		background-color: #fff;
+		position: absolute;
+		left:-20px;
+		top: 860px;
+		font-size: 13px;
+		display:flex;/* flexbox */
+		justify-content:center; /* 水平方向 */
+		align-items: center; /* 垂直方向 */
+		text-align: center;
+		line-height: 250%
+	  }
+	
+	.ey{
+		width:350px;
+		height:220px;
+		padding: 10px;
+	}
+	.eyu{
+		width:350px;
+		height:220px;
+		padding: 10px;
+	
+	}
+	
+	
+	  /*ここまで並べ*/
+
+
+	  .example{
+		display: flex;
+		flex-direction: column;
+		gap: 20px 10px; /* 余白 */
+	}
+	.example>div{
+		width:180px;
+	}
+	.example{
+		position: absolute;
+		top: 1200px;
+		right:500px;
+		margin:0 auto;
+	}
+	
+	
+	.example1{
+		display: flex;
+		flex-direction: column;
+		gap: 20px 10px; /* 余白 */
+	}
+	.example1>div{
+		width:180px;
+	}
+	.example1{
+		position: absolute;
+		top: 1300px;
+		right:500px;
+		margin:0 auto;
+	}
+	
+	
+	.example2{
+		display: flex;
+		flex-direction: column;
+		gap: 20px 10px; /* 余白 */
+	}
+	.example2>div{
+		width:300px;
+	}
+	.example2{
+		position: absolute;
+		top: 1400px;
+		right:380px;
+		margin:0 auto;
+	}
+
+	.example3{
+		display: flex;
+		flex-direction: column;
+		gap: 30px 10px; /* 余白 */
+	}
+	.example3>div{
+		width:300px;
+	}
+	.example3{
+		position: absolute;
+		top: 1500px;
+		right:380px;
+		margin:0 auto;
+
+
+	}
+
+	/*
+	relative
+	absolute
+	fixed
+	static
+	sticky
+	*/
+
+	.top-banner{
+		display:flex;
+		flex-flow: column;
+		margin:0 auto;
+		text-align: center;
+
+	}
+	.top-banner li {
+		padding:1em;
+	}
+	.top-banner li {
+	position: relative;
+	margin:0 auto;
+	text-align: center;
+	left:0px;
+	top:1195px;
+	width:800px;
+	}
+.top-banner img{
+	width: 700px;
+	height: 130px;
+}
+
+
+
+footer{
+    position: absolute;/*←絶対位置*/
+
+    bottom: 0; /*下に固定*/
+	background-color: #279b8f;
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+.ee{
+	width: 100%;
+	text-align: center;
+	margin:top;
+	color:white;
+	position: absolute;
+	top: 13px;
+}
+
+
+.go{
+	position: relative;
+	top:1070px;
+	left:300px;
+	margin-bottom:20px;
+	margin-top:200px;
+}
+.eyy{
+	height:110px;
+	width: 110px;
+}
+
+div.box5 {/*フッターのライン*/
+    position: relative;
+    border-top: 1px solid #279b8f;
+	text-align: center;
+	margin: 0 auto;
+	bottom: -900px;
+	border-width:8px;
+}
+
+div.box4{
+	position: relative;
+    border-top: 1px solid #279b8f;
+	text-align: center;
+	margin: 0 auto;
+	bottom: -1150px;
+	border-width:1px;
+}
+
+.dogg{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width:0px;
+	height:0px;
+	}
+	.pppp{
+		position: absolute;
+		top:0px;
+		right:0px;
+		width:0px;
+		height:0px;
+	}
+
+	div.box45{
+		position: relative;
+		border-top: 1px solid #279b8f;
+		text-align: center;
+		margin: 0 auto;
+		bottom: -80px;
+		border-width:2px;
+		width: 1300px;
+	}
+	div.box55{
+		position: relative;
+		border-top: 1px solid #279b8f;
+		text-align: center;
+		margin: 0 auto;
+		bottom: -170px;
+		border-width:2px;
+		width: 1300px;
+	}
+
+	div.box91{
+		position: relative;
+		border-top: 1px solid #279b8f;
+		text-align: center;
+		margin: 0 auto;
+		bottom: -270px;
+		border-width:2px;
+		width: 1300px;
+	}
+
+	div.box92{
+		position: relative;
+		border-top: 1px solid #279b8f;
+		text-align: center;
+		margin: 0 auto;
+		bottom: -370px;
+		border-width:2px;
+		width: 1300px;
+	}
+	<div class="box92"></div>
+
+	
+
+
+
+
+}
