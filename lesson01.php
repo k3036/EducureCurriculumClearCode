@@ -1,0 +1,5 @@
+﻿<?php
+// 「Hello world.」という文字列を
+// 変数に代入して出力してください。
+$x="Hello world";
+echo $x;
