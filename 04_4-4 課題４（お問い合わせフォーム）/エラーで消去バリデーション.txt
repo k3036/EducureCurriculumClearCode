@@ -1,0 +1,48 @@
+// else if(isset($_POST['send']) && $_POST["howToRead"] && empty($_POST["emailAddress"])){
+//   $_SESSION["howToRead"]	= $_POST["howToRead"];
+// }else if( isset($_POST['send']) && empty($_POST["howToRead"])&& $_POST["emailAddress"]){
+//   $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+// }else if( empty($_POST["chineseCharacterName"] ) || empty($_POST["howToRead"])){
+
+// }
+
+
+
+
+
+　
+
+
+else if(isset($_POST['send']) && mb_strlen ($_SESSION["chineseCharacterName"] ) > 10 && empty($_POST["howToRead"]) ){
+  echo <<<EOM
+  <script type="text/javascript">
+    alert( "※氏名は10文字以内で入力して下さい。" )
+  </script>
+  EOM;
+  unset($_SESSION["chineseCharacterName"]);
+}else if(isset($_POST['send']) && mb_strlen ($_SESSION["chineseCharacterName"] ) > 10 && mb_strlen ($_SESSION["howToRead"] ) > 10){
+  echo <<<EOM
+  <script type="text/javascript">
+    alert( "※氏名とフリガナは10文字以内で入力して下さい。" )
+  </script>
+  EOM;
+  unset($_SESSION["chineseCharacterName"]);
+  unset($_SESSION["howToRead"]);
+}
+else if( isset($_POST['send']) && mb_strlen ($_SESSION["chineseCharacterName"] ) > 10){
+  echo <<<EOM
+  <script type="text/javascript">
+    alert( "※氏名は10文字以内で入力して下さい。" )
+  </script>
+  EOM;
+  unset($_SESSION["chineseCharacterName"]);
+}else if(empty("howToReed")){
+
+}else if(isset($_POST['send']) && mb_strlen ($_SESSION["howToRead"] ) > 10){
+  echo <<<EOM
+  <script type="text/javascript">
+    alert( "※フリガナは10文字以内で入力して下さい。" )
+  </script>
+  EOM;
+  unset($_SESSION["howToRead"]);
+}

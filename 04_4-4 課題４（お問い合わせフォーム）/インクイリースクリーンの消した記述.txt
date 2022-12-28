@@ -1,0 +1,93 @@
+inquiryScreen.php　
+　　　↓
+if( empty($_POST["chineseCharacterName"] ) && empty($_POST["howToRead"])  && empty($_POST["emailAddress"] )  && empty($_POST["contentsOfInquiry"] ) &&  empty($_POST["phoneNumber"])){
+
+}else if( empty($_POST["chineseCharacterName"] ) && empty($_POST["howToRead"])  && empty($_POST["emailAddress"] )  && empty($_POST["contentsOfInquiry"] ) &&  $_POST["phoneNumber"]){
+  $_SESSION["phoneNumber"]	= $_POST["phoneNumber"];
+}else if( empty($_POST["chineseCharacterName"] ) && empty($_POST["howToRead"])  && empty($_POST["emailAddress"] )  && empty($_POST["contentsOfInquiry"] ) )  {
+
+}else if( !$_POST["chineseCharacterName"]  && !$_POST["howToRead"]  && !$_POST["emailAddress"]  && !$_POST["contentsOfInquiry"]  ) {
+
+}else if( $_POST["chineseCharacterName"] && $_POST["howToRead"] && $_POST["emailAddress"] && $_POST["contentsOfInquiry"] ) {
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+  $_SESSION["contentsOfInquiry"]	= $_POST["contentsOfInquiry"];
+  if( !$_POST["phoneNumber"]  ){
+    unset($_SESSION["phoneNumber"]) ;
+  }else if( $_POST["phoneNumber"]){
+    $_SESSION["phoneNumber"]	= $_POST["phoneNumber"];
+  }
+    header("Location: confirm.php") ;
+}
+else if( $_POST["phoneNumber"] && $_POST["howToRead"] && $_POST["emailAddress"]) {
+  $_SESSION["phoneNumber"]	= $_POST["phoneNumber"];
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+}else if( $_POST["chineseCharacterName"] && $_POST["howToRead"] && $_POST["emailAddress"]) {
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+}else if( $_POST["chineseCharacterName"] && $_POST["phoneNumber"] && $_POST["emailAddress"]) {
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+  $_SESSION["phoneNumber"]	= $_POST["phoneNumber"];
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+}else if( $_POST["chineseCharacterName"] && $_POST["phoneNumber"] ) {
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+  $_SESSION["phoneNumber"]	= $_POST["phoneNumber"];
+}else if( $_POST["howToRead"] && $_POST["phoneNumber"] ) {
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+  $_SESSION["phoneNumber"]	= $_POST["phoneNumber"];
+}else if( $_POST["emailAddress"] && $_POST["phoneNumber"] ) {
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+  $_SESSION["phoneNumber"]	= $_POST["phoneNumber"];
+}else if($_POST["phoneNumber"] ) {
+  $_SESSION["phoneNumber"]	= $_POST["phoneNumber"];
+}else if( $_POST["chineseCharacterName"] && $_POST["howToRead"] && $_POST["emailAddress"]) {
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+}else if( $_POST["chineseCharacterName"] && $_POST["howToRead"] && $_POST["contentsOfInquiry"] ) {
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+  $_SESSION["contentsOfInquiry"]	= $_POST["contentsOfInquiry"] ;
+}else if( $_POST["emailAddress"] && $_POST["howToRead"] && $_POST["contentsOfInquiry"] ) {
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+  $_SESSION["contentsOfInquiry"]	= $_POST["contentsOfInquiry"] ;
+}else if( $_POST["emailAddress"] && $_POST["chineseCharacterName"] && $_POST["contentsOfInquiry"] ) {
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+  $_SESSION["contentsOfInquiry"]	= $_POST["contentsOfInquiry"] ;
+}else if( $_POST["chineseCharacterName"] && $_POST["howToRead"] ) {
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+}else if( $_POST["chineseCharacterName"] && $_POST["emailAddress"]) {
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+}else if( $_POST["chineseCharacterName"] && $_POST["contentsOfInquiry"]) {
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+  $_SESSION["contentsOfInquiry"]	= $_POST["contentsOfInquiry"] ;
+}else if( $_POST["howToRead"] && $_POST["emailAddress"] ) {
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+}else if( $_POST["howToRead"] && $_POST["contentsOfInquiry"] ) {
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+  $_SESSION["contentsOfInquiry"]	= $_POST["contentsOfInquiry"] ;
+}else if( $_POST["howToRead"] && $_POST["emailAddress"] ) {
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+}else if( $_POST["contentsOfInquiry"] && $_POST["emailAddress"] ) {
+  $_SESSION["contentsOfInquiry"]	= $_POST["contentsOfInquiry"];
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+}else if($_POST["chineseCharacterName"]){
+  $_SESSION["chineseCharacterName"]	= $_POST["chineseCharacterName"];
+}else if($_POST["howToRead"]){
+  $_SESSION["howToRead"]	= $_POST["howToRead"];
+}else if($_POST["emailAddress"]){
+  $_SESSION["emailAddress"]	= $_POST["emailAddress"];
+}else if($_POST["contentsOfInquiry"]){
+  $_SESSION["contentsOfInquiry"]	= $_POST["contentsOfInquiry"];
+}else if($_POST["phoneNumber"]){
+  $_SESSION["phoneNumber"]	= $_POST["phoneNumber"];
+}

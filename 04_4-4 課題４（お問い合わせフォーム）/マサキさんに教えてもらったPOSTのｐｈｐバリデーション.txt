@@ -1,0 +1,108 @@
+http://localhost/inquiryScreen.php
+　
+ページ遷移 PHP
+
+http://localhost/inquiryScreen.php
+php 画面遷移（移り変わること）
+最初のPOST送信は、同じページに飛ばす。
+同じページに飛ばされた際は、初回の入力された値を持っている。
+この値を持った状態で、条件分岐して、同じページに残るか、確認画面に進むかを決める。
+
+
+
+　　　初回入力ページ　　　
+　　　　　　↓
+入力値を持った初回の入力ページ　→　入力ミスがあれば入力値を持った初回入力ページをループ。
+　　　　　　↓　　　　　　　　　　　　　　　　　　　　↓
+　　　（　　　　　　　　入力値が正しければ　　　　　　　　）
+　　　　　　　　　　　　　　　　↓
+　　　　　　　　　　　　　　　　↓
+　　　　　　　　　　　　　　　確認画面
+　　　　　　　　　　　　　　　　↓
+　　　　　　　　　　　　　　　完了画面　
+
+
+
+
+/**if ($Contact) {
+<!-値が入っている時の処理 -->
+echo 'お問合せがあります';
+} else {
+<!--値が入っていないとき(null)の処理 -->
+}
+*/
+
+
+
+
+
+<?php
+session_start();
+	// リダイレクトを実行
+if($_SESSION["chineseCharacterName"] == "") {
+  /*header("Location: confirm.php") ;*/
+}else{
+  // header("Location: inquiryScreen.php") ;
+}
+
+
+/** print_r($_POST); *//** header("Location: confirm.php") ; →  飛ばすコード */
+?>
+
+
+
+
+
+
+if(empty($_SESSION["chineseCharacterName"] )){
+  echo "<FONT COLOR=\"RED\">※氏名は必須入力です。１０文字以内でご入力ください。</FONT>" ."</br>";
+}else if(mb_strlen( $_SESSION["chineseCharacterName"]) >= 10 ){
+  echo "<FONT COLOR=\"RED\">※氏名は必須入力です。１０文字以内でご入力ください。</FONT>" ."</br>";
+}
+
+ー－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+POST
+フォームのメソッドでPOST指定したら、その入力値をactionで指定したページで使える。
+（１度の送信で１度使える。２度使いたかったら２度送信する。）
+
+SESSION　
+入力保持や他のページで使いたいときに使う。
+（何度も使える）
+
+お問い合わせフォームでは、　POST　→　session　の順で使う。
+
+
+GET
+ほぼ、POSTと一緒。GET送信した値はURLに表示されてしまう。なのでセキュリティ面が悪い。
+
+　
+ブラウザーバックはJSの処理。
+
+
+
+
+
+
+
+①初回値、空のときは何もしない。（この時header（）を入れると∞ループになるから。）
+②入力後に送信ボタンを押して必須項目が空だったときは、同じページに飛ばす。
+
+・エラー後の入力保持
+
+●post送信の際[]内に配列で送信内容が入っている。
+
+
+最初に適当な番号入れて
+
+スペース（空白文字のときも未入力のときと同じ動作の方が好ましい、提出の際に見極める。）
+
+ー－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+【NEXT】　
+ ●　各項目の詳細なバリデーションに入る。
+ ●　エラー文。
+ ●　横ばいの際の入力保持。
+
+
+$result = ""; if (isset($_POST['send']) && empty($_SESSION["contentsOfInquiry"])) { $result = "※お問い合わせ内容は必須入力です。"; echo $result ; }

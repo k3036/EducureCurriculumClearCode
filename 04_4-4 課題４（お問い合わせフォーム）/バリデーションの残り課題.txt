@@ -1,0 +1,18 @@
+半角文字の折り返し。（確認画面）
+改行の読み込み。　　（確認画面）
+
+
+.entryDetail
+.detail　　　　textarea内の文字列の折り返し　
+改行の読み込み
+-------------------------------------------------------------------------------------------
+　　
+
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+OK↓
+--------------------------------------------------------------------------------------------
+
+footer全部書き直し。　

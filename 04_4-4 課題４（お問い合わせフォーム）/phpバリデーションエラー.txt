@@ -1,0 +1,4 @@
+          $errors = [];
+          if(!isset($_SESSION["phoneNumber"]) || !preg_match("/^[0-9]+$/", $_SESSION["phoneNumber"])) {
+            $errors["phoneNumber"] = "電話番号は0-9までの数字を入力してください";
+        }

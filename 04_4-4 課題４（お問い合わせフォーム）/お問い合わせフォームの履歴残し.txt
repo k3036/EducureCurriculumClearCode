@@ -1,0 +1,41 @@
+      <form method="POST" action="confirm.php">
+        <div class="entryName">
+          <input value="<?php echo $_SESSION["chineseCharacterName"] ?>" class="entryPlace" type=" text"
+            placeholder="山田 太郎" name="chineseCharacterName">
+        </div>
+
+
+        <div class="entryName2">
+          <input value="<?php echo $_SESSION["howToRead"] ?>" class="entryPlace" type=" text" name="howToRead"
+            placeholder="ヤマダタロウ">
+        </div>
+
+
+        <div class="entryNumber">
+          <input value="<?php echo $_SESSION["phoneNumber"] ?>" class="entryPlace" type=" tel" name="phoneNumber"
+            placeholder="09012345678">
+        </div>
+
+        <div class="entryAddress">
+          <input value="<?php echo $_SESSION["emailAddress"] ?>" class="entryPlace" type="email" name="emailAddress"
+            placeholder="test@test.co.jp">
+        </div>
+
+        <div class="detail">
+          <textarea class="entryDetail" type="" name="contentsOfInquiry"></textarea>
+        </div>
+
+
+
+        <p class="fillInYourName0">氏名</p>
+        <p class="howToRead0">フリガナ</p>
+        <p class="fillInThePhoneNumber0">電話番号</p>
+        <p class="fillInYourEmailAddress0">メールアドレス</p>
+
+        <input class="submitButton3" type="submit" value="送信">
+      </form>
+ー－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+上記記述のように、　
+[Input］内に、value="<?php echo $_SESSION["対象名"] ?>"を、
+織り交ぜることによって、
+確認画面から、戻ってきた際の履歴を出せるようになりました。
