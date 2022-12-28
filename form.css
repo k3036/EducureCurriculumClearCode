@@ -1,0 +1,2002 @@
+/**本文CSS*/
+p.header0{
+    font-size: 20px ;
+    color: white ;
+    background-color: black ;
+    font-weight :bold ;
+    line-height : 60px ;
+  }
+
+  .header0{
+    position:relative;
+    top : -20px ;
+  }
+
+  .corona{
+    position:relative;
+    margin-right: 5.5%;
+  }
+
+  .header{
+    display: absolute;
+    width: 100%;
+    height: 65px;
+    background-color : rgba(0,0,0,0.7); ;
+    text-align : center;
+  }
+
+  .headMenu0{
+    position : relative;
+    text-align: left;
+    margin-right : 220px ;
+  }
+
+  .headMenu1{
+    position : relative;
+    text-align: center;
+    margin-top : -90px ;
+    left : 150px ;
+  }
+
+  .covid19{
+    position : relative;
+    top: 20px;
+  }
+
+  .header.covid19{
+    position : relative;
+    text-align : center;
+  }
+
+  .a {
+    color:white;
+    font-size: 15px ;
+  }
+
+  .header{
+    position:fixed;
+    width: 100%;
+    top : 0 ;
+    z-index : 999 ;
+    height : 80px ;
+    padding : 0 24px ;
+    display: none;
+  }
+
+  .header{
+    font-size : 24px ;
+    letter-spacing : 4px ;
+    line-height : 80px ;
+  }
+
+  #page_top{
+    width: 118px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: -50px;
+    background: black;
+  }
+
+  .covid19{
+    position : relative;
+    top: 20px;
+  }
+
+  .header.covid19{
+    position : relative;
+    text-align : center;
+  }
+
+  a {
+    color:white;
+    font-size: 15px ;
+  }
+
+  .waitingRoom{
+    position : relative;
+    margin:0 auto ;
+  }
+
+  .wr{
+    opacity: 0.75;
+  }
+
+  .wr{
+    position : relative;
+    top :-40px ;
+  }
+
+  .createYourFavoriteSpace{
+    position : absolute;
+    top : 250px ;
+    color : white ;
+    text-align: left;
+    margin-left : 66px ;
+    font-size : 60px ;
+    font-weight: bold;
+  }
+
+  .Logo0{
+    position : absolute;
+    top : 70px ;
+    text-align: left;
+    margin-left : 4% ;
+  }
+
+  .topMenu3{
+    display: block;
+    text-align:right ;
+    margin-top : 20px ;
+    margin-right : 200px ;
+    position : relative ;
+    top : -25px ;
+  }
+
+  .topMenu1{
+    display: block;
+    position: absolute;
+    text-align:center ;
+    top : 98px ;
+    margin-left: 44%;
+  }
+
+  .topMenu0{
+    display: block;
+    position: relative;
+    text-align:right ;
+    top : -727px ;
+    margin-right : 4% ;
+  }
+
+  #hero{
+    height : 100vh ;
+    display : flex ;
+    flex-direction : column;
+    justify-content : center ;
+    align-items : center ;
+    position : relative ;
+  }
+
+  #hero h1{
+    font-size : 36px ;
+    font-weight : bold ;
+  }
+
+  #about{
+    padding : 100px 24px ;
+  }
+
+  #menu{
+    padding : 100px 24px ;
+  }
+
+  .ABC{
+    color : white ;
+    position : relative ;
+    top:-20px ;
+  }
+
+  .JumpTop{
+    text-align: center;
+  }
+
+  .accessTitle{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 8%;
+    text-align: left;
+  }
+
+  .accessTitle0{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 2%;
+    text-align: left;
+  }
+
+  .title2{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 59%;
+    text-align: left;
+    position: relative;
+    top: -74px;
+  }
+
+  .title3{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 2%;
+    text-align: left;
+  }
+
+  .fot0{
+    border-radius: 10px;
+  }
+
+  .font0{
+    margin-right:75%;
+    margin-top:-50px ;
+  }
+
+  .tokyo{
+    display:flex;
+    margin-left:20% ;
+  }
+
+  .okayama{
+    display:flex;
+    margin-left:20% ;
+    margin-top:-30px ;
+  }
+
+  .font1{
+    margin-left:10%;
+    margin-top:-157px ;
+  }
+  .Kanagawa{
+    display:flex;
+    margin-left:20% ;
+  }
+
+  .Kagoshima{
+    display:flex;
+    margin-left:20% ;
+    margin-top:-30px ;
+  }
+
+    .font2{
+    margin-left:10%;
+    margin-top:-157px ;
+  }
+    .aichi{
+      display:flex;
+      margin-left:50% ;
+  }
+
+  .okinawa{
+      display:flex;
+      margin-left:50% ;
+      margin-top:14px ;
+  }
+
+  .font3{
+    margin-left:58%;
+    margin-top:-151px ;
+  }
+    .kyoto{
+      display:flex;
+      margin-left:50% ;
+  }
+
+  .fourTypesOfLocations{
+      display:flex;
+      margin-left: auto;
+      margin-right:auto;
+  }
+
+  .favoriteLocation {
+    font-weight: bold;
+    font-size : 35px ;
+    margin-right:55%;
+    margin-top:10% ;
+  }
+
+  .fot1-0{
+    border-radius: 10px;
+    height: 200px;
+    border-radius: 10px;
+    width: 265px;
+  }
+
+  .allFont4 {
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .fontClassic{
+    margin-left: auto;
+    margin-right:auto;
+    padding-left: 3%;
+  }
+  .fontClassicName{
+    font-weight: bold;
+    font-size:20px ;
+    margin-right:60%;
+    margin-top: 0;
+  }
+
+  .fontBar{
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  .fontBarName{
+    font-weight: bold;
+    font-size:20px ;
+    margin-right:80%;
+    margin-top: 0;
+  }
+
+  .fontCamp{
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  .fontCampName{
+    font-weight: bold;
+    font-size:20px ;
+    margin-right:60%;
+    margin-top: 0;
+  }
+
+  .fontResort{
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  .ResortName{
+    font-weight: bold;
+    font-size:20px ;
+    margin-right:60%;
+    margin-top: 0;
+  }
+
+  .fot0-0{
+    border-radius: 10px;
+  }
+
+  .goToEats{
+    position : relative ;
+    top : -300px;
+    text-align:center;
+    margin-left : 0% ;
+    margin-top : 29% ;
+    width: 100% ;
+  }
+  .go{
+    font-weight: bold;
+    font-size: 50px ;
+    position: absolute ;
+    top: 20px ;
+    left: 10% ;
+    z-index: 100;
+  }
+  .clearBox{
+    position : relative ;
+    background-color: white;
+    opacity: 0.4;
+    top: -270px;
+    left : 7% ;
+    font-size : 17px ;
+    width : 500px ;
+    height : 125px ;
+    text-align: left;
+  }
+
+  .ExperienceMakingACafe{
+    background-color : black ;
+    position: relative ;
+    top : -410px ;
+    width: 100%;
+    margin : 0 auto ;
+  }
+
+  .MakingACafe{
+    color: white;
+    font-size: 33px ;
+    font-weight: bold;
+    position: relative ;
+    top:51px;
+    right:31% ;
+  }
+
+  .Expert{
+    color: white ;
+    font-weight: bold;
+    font-size: 14px ;
+    position: relative ;
+    top:-35px;
+    left:6% ;
+  }
+
+  .cooking3{
+    position: relative ;
+    display:flex;
+    padding: 20px;
+  }
+    .Cooking0{
+    position: relative ;
+    margin-left : 10px ;
+  }
+    .Cooking1{
+    position: relative ;
+    margin-left : 10px ;
+  }
+    .Cooking2{
+    position: relative ;
+    margin-left : 10px ;
+  }
+
+  .Size3{
+    height: 90% ;
+    width: 95% ;
+    border-radius: 10px; /* 角丸の指定 */
+  }
+
+  .CookWord3{
+    position: relative ;
+    display:flex;
+    color: white ;
+    bottom:55px;
+  }
+
+    .CookWord0{
+    margin-left:3% ;
+    font-weight: bold;
+    font-size: 20px ;
+  }
+
+    .CookWord1{
+      position: relative ;
+      left:24.5%;
+      font-weight: bold;
+      font-size: 20px ;
+  }
+
+    .CookWord2 {
+      position: relative ;
+      left:49%;
+      font-weight: bold;
+      font-size: 20px ;
+    }
+
+  .CookWord32{
+    position: relative ;
+    display:flex;
+    color: white ;
+    bottom:70px;
+    }
+
+    .CookWord00{
+      margin-left:3% ;
+      font-weight: bold;
+      font-size: 15px ;
+    }
+
+    .CookWord11{
+      position: relative ;
+      margin-left:14.5%;
+      font-weight: bold;
+      font-size: 15px ;
+    }
+
+    .CookWord22{
+      position: relative ;
+      margin-left:14.5%;
+      font-weight: bold;
+      font-size: 15px ;
+    }
+
+    .HostsNationwide{
+      position: relative ;
+      top : -375px ;
+      font-size : 35px ;
+      font-weight: bold;
+      margin-right:50% ;
+    }
+
+    .Business3{
+      position: relative ;
+      display:flex;
+      top : -360px ;
+      margin : 0 auto ;
+    }
+
+    .EatingAround{
+      position: relative ;
+      margin : 10px ;
+    }
+
+    .Business{
+      position: relative ;
+      margin : 10px ;
+    }
+
+    .CommunityImage{
+      position: relative ;
+      margin : 10px ;
+    }
+
+    .Size33{
+      height: 90% ;
+      width: 95% ;
+      border-radius: 10px; /* 角丸の指定 */
+    }
+
+    .Community{
+      position: relative ;
+      left : 25px ;
+    }
+
+    .BusinessWord00{
+      font-weight: bold;
+      font-size:19px ;
+      margin-top:-1% ;
+      margin-left: 3%;
+      text-align: left;
+    }
+
+    .footerDown{
+      padding-top: 20%;
+      margin-top: -5%;
+    }
+
+    .FooterListMain{
+      background-color : gray ;
+      opacity: 0.1;
+      position: relative ;
+      top : -300px ;
+      height : 540px ;
+      width: 100%;
+      margin : 0 auto ;
+    }
+
+    .FooterLineMain{/*フッターのライン*/
+      position: relative;
+      border-top: 1px solid gray ;
+      text-align: center;
+      margin: 0 auto;
+      top: -100px;
+      border-width:1px;
+      width : 92%;
+    }
+    .FooterUp{
+      margin-top:-800px ;
+    }
+
+  sizeFixed{
+    position: relative ;
+    margin-bottom : 10% ;
+    padding : 5% ;
+  }
+
+  .useTheCampaign{
+    position: relative;
+    top : -30px;
+  }
+
+  .FooterList{
+    background-color : gray ;
+    opacity: 0.1;
+    position: relative ;
+    top : 50px ;
+    height : 540px ;
+    width: 100%;
+    margin : 0 auto ;
+  }
+
+  .footerWord{
+    position: absolute ;
+    text-align : left ;
+    padding : 40px ;
+    top : 3200px ;
+  }
+
+  footer{
+    text-align : center ;
+    padding : 10px ;
+  }
+
+  .MenuBelow{
+    display:flex;
+    font-size: 20px;
+    margin-top: 2850px ;
+    width:800px;
+    margin-right: auto;
+    margin-left : auto;
+  }
+
+  .Host{
+    position: relative ;
+    left : 370px ;
+  }
+  .Support{
+    position: relative ;
+    left : 615px ;
+  }
+  .Community{
+    position: relative ;
+    left : 190px ;
+  }
+
+  .FirstLineBelow{
+    position: absolute ;
+    display:flex;
+    top : 2940px ;
+    left : 30px ;
+  }
+
+  .Corporate{
+      position: relative ;
+      left : 30px ;
+  }
+
+  .Diversity{
+    position: relative ;
+    left : 205px ;
+  }
+
+  .XCharacter{
+    position: relative ;
+    left : 370px ;
+  }
+
+  .InitiativesForTheNewCoronavirus{
+    position: relative ;
+    left : 505px ;
+  }
+
+  .SecondLine{
+    position: absolute ;
+    display:flex;
+    top : 2980px ;
+    left : 30px ;
+  }
+
+  .NewsRoom{
+    position: relative ;
+    left : 30px ;
+  }
+
+  .AccessibilitySupport{
+    position: relative ;
+    left : 175px ;
+  }
+
+  .XCharacter2{
+    position: relative ;
+    left : 290px ;
+  }
+
+  .HelpCenter{
+    position: relative ;
+    left : 425px ;
+  }
+
+  .ThirdLine{
+    position: absolute ;
+    display:flex;
+    top : 3020px ;
+    left : 30px ;
+  }
+
+  .ToShareholdersAndInvestors{
+    position: relative ;
+    left : 30px ;
+  }
+
+  .InviteYourFriends{
+    position: relative ;
+    left : 95px ;
+  }
+
+  .XCharacter3{
+    position: relative ;
+    left : 275px ;
+  }
+
+  .CancellationOption{
+    position: relative ;
+    left : 410px ;
+  }
+
+  .FourLine{
+    position: absolute ;
+    display:flex;
+    top : 3060px ;
+    left : 30px ;
+  }
+
+  .XCharacter4{
+    position: relative ;
+    left : 30px ;
+  }
+
+  .XCharacter5{
+    position: relative ;
+    left : 125px ;
+  }
+
+  .CommunitySupport{
+    position: relative ;
+    left : 540px ;
+  }
+
+  .FiveLine{
+    position: absolute ;
+    display:flex;
+    top : 3100px ;
+    left : 30px ;
+  }
+
+  .XCharacter6{
+    position: relative ;
+    left : 30px ;
+  }
+
+  .XCharacter7{
+    position: relative ;
+    left : 125px ;
+  }
+
+  .TrustAndSafety{
+    position: relative ;
+    left : 540px ;
+  }
+
+  .SixLine{
+    position: absolute ;
+    display:flex;
+    top : 3140px ;
+    left : 60px ;
+  }
+
+  .XCharacter6{
+    position: relative ;
+    left : 30px ;
+  }
+
+  .EmploymentInformation{
+    position: absolute ;
+    display:flex;
+    top : 3180px ;
+    left : 88px ;
+  }
+
+  .Employment{
+    position: relative ;
+    right : 30px ;
+  }
+
+  .FooterLine{
+    position: relative;
+    border-top: 1px solid gray ;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 92px;
+    border-width:1px;
+    width : 92%;
+  }
+
+  .space:hover,
+  .followSpace:hover {
+    opacity: .5;
+  }
+  /* オーバーレイ 画面指定範囲を暗くする*/
+  .overlay ,
+  .followOverlay {
+  /* 位置を固定 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* 画面いっぱいに広がるようにする */
+    width: 100%;
+    height: 100vh;
+    /* rgbaを使って60%の黒いオーバーレイにする */
+    background: rgba(0, 0, 0, 0.6);
+    /* デフォルトでは見えないようにする */
+    opacity: 0;
+    visibility: hidden;
+    /* 表示する際の変化の所要時間 */
+    transition: .10s;
+    z-index : 888 ;
+  }
+  /* activeクラスのついたオーバーレイ */
+  .overlay.active ,
+  .followOverlay.active {
+  /* activeクラスがついたときにオーバーレイを表示する */
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+  }
+  /* モーダルウィンドウ */
+  .modal,
+  .followModal{
+    text-align: center;
+    max-width: 500px;
+    width : 86%;
+    height : 520px;
+    /*padding: 15px 20px;*/
+    background: white;
+    /* 位置の調整(真ん中に表示) */
+    position: fixed;
+    /*モーダル表示位置*/
+    top: 5%;
+    left: 40%;
+    transform: translate(0%, 100%);
+    /* デフォルトでは非表示にしておく */
+    opacity: 0;
+    visibility: hidden;
+    /* 表示の変化にかかる時間 */
+    transition: .3s;
+    z-index : 999 ;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 0 40px;
+  }
+
+  /* activeクラスのついたモーダルウィンドウ表示 */
+  .modal.active ,
+  .followModal.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
+    transition: all 1s;
+  }
+
+  .Login{
+    position : relative;
+    top : -30px ;
+    font-size : 20px;
+    font-weight : bold;
+    letter-spacing:-1px;
+  }
+
+  .modalLine0{
+    position: relative;
+    border-top: 1px solid gray ;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: -59px;
+  }
+  .mailAddress{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: -70px;
+  }
+  .sizeTextBox{
+    position: relative;
+    height: 40px;
+    width : 450px;
+    top :20px ;
+    font-size : 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+  .passWord{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: -88px;
+  }
+
+  .sizePassWord{
+    position: relative;
+    height: 40px;
+    width : 450px;
+    top :20px ;
+    font-size : 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+  .modalLine1{
+    position: relative;
+    border-top: 1px solid gray ;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: -50px;
+  }
+
+  .submitButton0{
+    position: relative;
+    display:block;
+    bottom: 75px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:#CC0066;
+  }
+
+  .submitButton0{
+    width : 455px;
+    height : 45px;
+  }
+
+  .sendSize{
+    position: relative;
+    bottom : 35px ;
+    font-size: 20px;
+  }
+
+  .twitterButton{
+    position: relative;
+    display:block;
+    top: -21px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:white;
+    z-index :1 ;
+  }
+
+  .twitterButton{
+    width : 455px;
+    height : 45px;
+    z-index :1 ;
+  }
+
+  .fbButton{
+    position: relative;
+    display:block;
+    top: -6px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:white;
+    z-index :777 ;
+  }
+
+  .fbButton{
+    width : 455px;
+    height : 45px;
+  }
+
+  .googleButton{
+    position: relative;
+    display:block;
+    top: 8px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:white;
+    z-index :777 ;
+  }
+
+  .googleButton{
+    width : 455px;
+    height : 45px;
+  }
+
+  .appleButton{
+    position: relative;
+    display:block;
+    top: 22px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:white;
+    z-index :777 ;
+  }
+
+  .appleButton{
+    width : 455px;
+    height : 45px;
+  }
+
+  .markSize{
+    position: relative;
+    bottom : 25px ;
+    font-size: 20px;
+  }
+
+  .Login2{
+    position : relative;
+    top : 0px ;
+    font-size : 20px;
+    font-weight : bold;
+    letter-spacing:-1px;
+  }
+
+  .modalLine3{
+    position: relative;
+    border-top: 1px solid gray ;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: -10px;
+  }
+
+  .sizeTextBox2{
+    position: relative;
+    height: 40px;
+    width : 450px;
+    top :65px ;
+    font-size : 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+  .passWord2{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: -68px;
+  }
+
+  .sizePassWord2{
+    position: relative;
+    height: 40px;
+    width : 450px;
+    top :35px ;
+    font-size : 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+  .modalLine4{
+    position: relative;
+    border-top: 1px solid gray ;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: 55px;
+  }
+
+  .submitButton2{
+    position: relative;
+    display:block;
+    bottom: 85px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:#CC0066;
+  }
+
+  .submitButton2{
+    width : 455px;
+    height : 45px;
+  }
+
+  .submitButton2{
+    position: relative;
+    display:block;
+    bottom: -30px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:#CC0066;
+  }
+
+  .submitButton2{
+    width : 455px;
+    height : 45px;
+  }
+
+  .twitterButton2{
+    position: relative;
+    display:block;
+    top: 80px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:white;
+    z-index :1 ;
+  }
+
+  .twitterButton2{
+    width : 455px;
+    height : 45px;
+    z-index :1 ;
+  }
+
+  .fbButton2{
+    position: relative;
+    display:block;
+    top: 95px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:white;
+    z-index :777 ;
+  }
+
+  .fbButton2{
+    width : 455px;
+    height : 45px;
+  }
+
+  .googleButton2{
+    position: relative;
+    display:block;
+    top: 115px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:white;
+    z-index :777 ;
+  }
+
+  .googleButton2{
+    width : 455px;
+    height : 45px;
+  }
+
+  .appleButton2{
+    position: relative;
+    display:block;
+    top: 130px ;
+    left :21px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:white;
+    z-index :777 ;
+  }
+
+  .appleButton2{
+    width : 455px;
+    height : 45px;
+  }
+
+  .markSize2{
+    position: relative;
+    bottom : 15px ;
+    font-size: 20px;
+  }
+
+  .sendSize{
+    position: relative;
+    bottom : 35px ;
+    font-size: 20px;
+  }
+
+  .headMenuSet{
+    background-color: rgba(1,1,1,0.8);
+    opacity : 1 ;
+    margin-top:0px ;
+  }
+
+  .topMenu2{
+    margin : 0auto;
+    position: absolute;
+    left : 500px;
+    top :30px ;
+  }
+
+  .headMenu5{
+    position : relative;
+    top :28px ;
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  .example2{
+    position : relative;
+    bottom : 25px ;
+  }
+
+  .example22{
+    position : relative;
+    left : 533px ;
+    top : 10px ;
+    margin-top: 0px;
+    bottom : 25px ;
+  }
+
+  .exampleE{
+    position: absolute;
+    top: 33px;
+    margin-left:47% ;
+  }
+
+  .contentOfTransmission{
+    height: 922px;
+    border: solid 0.1px rgba(1, 1, 1, 0.2);
+    text-align: center;
+    border-radius: 15px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:77px ;
+  }
+
+  .contentOfTransmission2 {
+      height: 864px;
+      border: solid 0.1px rgba(1, 1, 1, 0.2);
+      text-align: center;
+      border-radius: 15px;
+      width: 800px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top:77px ;
+    }
+
+  .inquiry{
+    font-weight : 900 ;
+    font-size : 20px ;
+    margin-top:35px ;
+  }
+
+  .inquiryLine{
+    position: relative;
+    border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: 20px;
+  }
+
+  .fillInTheFollowingItems{
+    height: 20px;
+    width: 93%;
+    border-top: 1.2px solid black;
+    border-bottom: 1.2px solid black;
+    padding: 10px;
+    background: #f2f2f2;
+    margin-left: 20px;
+    margin-top: 48px;
+  }
+
+  .FooterLine2{
+    position: relative;
+    border-top: 1px solid gray ;
+    text-align: center;
+    margin: 0 auto;
+    top : 3228px ;
+    border-width:1px;
+    width : 92%;
+  }
+
+  .FooterList2{
+    background-color : gray ;
+    opacity: 0.1;
+    position: absolute ;
+    top : 2198px ;
+    height : 500px ;
+    width: 100%;
+    margin : 0 auto ;
+  }
+
+  .FooterList3{
+    background-color : gray ;
+    opacity: 0.1;
+    position: absolute ;
+    top : 2198px ;
+    height : 500px ;
+    width: 100%;
+    margin : 0 auto ;
+  }
+
+  .inquiryFooter{
+    position: relative ;
+    top : -1950px ;
+  }
+
+  .footerMove{
+    position: relative ;
+    top:-680px ;
+  }
+
+  .footerMoveing{
+    position: relative ;
+    top:-0px ;
+  }
+
+  .enter{
+    position: relative ;
+    top : -15px;
+    text-align: left;
+  }
+
+  .enter1{
+    font-size : 15px ;
+    margin-right: 245px;
+    margin-top: -20px;
+  }
+
+  .enter2{
+    font-size : 15px ;
+    margin-top: -19px;
+    margin-right: 201px;
+  }
+
+  .enter3{
+    font-size : 15px ;
+    margin-top: -59px;
+    margin-right: 560px;
+  }
+
+  .enter5{
+    position: relative ;
+    top : -15px;
+    text-align: left;
+  }
+
+  .asterisk00{
+    color: red;
+    position: relative;
+    top: -18px;
+    right: 368px;
+  }
+
+  .asterisk0{
+    color: red;
+    position: relative;
+    top: -134px;
+    right: 339px;
+    z-index: 100;
+  }
+
+  .asterisk1{
+    color: red;
+    position: relative;
+    top: -105px;
+    right: 304px;
+  }
+
+  .asterisk2{
+    color:red ;
+    position: relative ;
+    top : -14px;
+    right : 259px ;
+  }
+
+  .asterisk3{
+    color: red;
+    position: relative;
+    top: -173px;
+    right: -29px;
+  }
+
+  .asterisk4{
+    color:red ;
+    position: relative ;
+    top : -96px;
+    right : 307px ;
+  }
+
+  .asterisk5{
+    color:red ;
+    position: relative ;
+    top : 17px;
+    right : -16px ;
+    z-index : 100 ;
+  }
+
+  .submitButton3{
+    display:block;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color:#CC0066;
+  }
+
+  .submitButton3{
+    width : 455px;
+    height : 45px;
+  }
+
+  .submitButton3{
+    position: relative;
+    display: block;
+    bottom: -18px;
+    left: 24px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: #CC0066;
+    z-index :9 ;
+  }
+
+  .submitButton3{
+    width : 750px;
+    height : 45px;
+  }
+
+  .sendCharacter{
+    z-index :999 ;
+    color : white;
+    font-size : 20px ;
+    margin :10px ;
+  }
+
+  .entryPlace{
+    height: 35px;
+    width : 750px;
+    font-size : 20px;
+    border-radius: 10px;
+    border: solid 0.1px rgba(1, 1, 1, 0.2);
+  }
+
+  .entryName{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: 160px;
+    z-index: 100 ;
+  }
+  .nameMove{
+    margin-top: -18%;
+  }
+
+  .entryName2{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: 190px;
+    z-index: 100 ;
+  }
+
+  .howToReadReeding{
+    margin-top:-15% ;
+  }
+
+  .inquiryMove{
+  margin-top: 5% ;
+  }
+
+  .entryNumber{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: 220px;
+    z-index: 100 ;
+  }
+
+  .fillInYourName{
+    font-size: 17px;
+    margin-right: 728px;
+  }
+
+  .fillInThePhoneNumber{
+    font-size: 17px;
+    margin-top: 25px;
+    margin-right: 689px;
+  }
+
+  .fillInYourEmailAddress{
+    font-size: 16px;
+    margin-top: 40px;
+    margin-right:644px ;
+  }
+
+  .fillInTheFollowingItems2{
+    height : 20px ;
+    width: 96.5%;
+    border-top: 1.2px solid black;
+    border-bottom: 1.2px solid black;
+    padding: 10px;
+    background: #f2f2f2;
+    text-align: center ;
+    margin-top: 326px;
+  }
+
+  .ContentsOfInquiry{
+    font-size: 16px;
+    margin-right:622px ;
+    margin-top: 32px;
+  }
+
+  .Notes0{
+    margin-top: 115px;
+    font-size: 14px;
+  }
+
+  .Notes1{
+    margin-top: -15px;
+    margin-right: 39px;
+    font-size: 14px;
+  }
+
+  .Inquiry0LinesBelow{
+    position: relative;
+    border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    border-width: 1px;
+    top: -14px;
+    max-width: 756px;
+    right: 3px;
+  }
+
+  .Inquiry1LinesBelow{
+    position: relative;
+    border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    border-width: 1px;
+    top: -14px;
+    max-width: 756px;
+    right: 3px;
+  }
+
+  .Inquiry2LinesBelow{
+    position: relative;
+    border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: -15px;
+    max-width: 756px;
+  }
+
+  .Inquiry3LinesBelow{
+    position: relative;
+    border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: -12px;
+    max-width: 756px;
+  }
+
+  .Inquiry4LinesBelow{
+    position: relative;
+    border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: -14px;
+    max-width: 756px;
+  }
+
+  .fillInYourName0{
+    position: relative;
+    top : -93px ;
+    right : 360px ;
+    font-size: 16px;
+  }
+
+  .howToRead0{
+    position: relative;
+    top: -65px;
+    font-size: 16px;
+    margin-right: 86%;
+    }
+
+  .fillInThePhoneNumber0{
+    position: relative;
+    top : -38px ;
+    right : 343px ;
+    font-size: 16px;
+  }
+
+  .movePhoneNumber{
+    margin-top:-6% ;
+  }
+
+  .addressMovement{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: 190px;
+    z-index: 100 ;
+  }
+
+  .addressMove{
+    margin-top:-4% ;
+  }
+
+  .fillInYourEmailAddress0 {
+    position: relative;
+    top: 27px;
+    right: 320px;
+    font-size: 16px;
+  }
+
+  .ProgressConfirmationText1stLine{
+    position: relative;
+    top: -56px;
+    right: 210px;
+    font-size: 19px;
+  }
+
+  .ProgressConfirmationText2stLine{
+    position: relative;
+    top: -78px;
+    right: 256px;
+    font-size: 19px;
+  }
+
+  .ProgressConfirmationText3stLine{
+    position: relative;
+    top: -74px;
+    right: 56px;
+    font-size: 19px;
+  }
+
+  .ProgressConfirmationText4stLine{
+    position: relative;
+    top: -97px;
+    right: 354px;
+    font-size: 19px;
+  }
+
+  .ProgressConfirmationText5stLine{
+    position: relative;
+    top: -120px;
+    right: 213px;
+    font-size: 19px;
+  }
+
+  .ProgressConfirmationText6stLine{
+    position: relative;
+    top: -142px;
+    right: 58px;
+    font-size: 19px;
+  }
+
+  .ProgressConfirmationText7stLine{
+    position: relative;
+    top: -163px;
+    right: 193px;
+    font-size: 19px;
+  }
+
+  .ProgressConfirmationText8stLine{
+    position: relative;
+    top: -161px;
+    right: 61px;
+    font-size: 19px;
+  }
+
+  .ProgressConfirmationText9stLine{
+    position: relative;
+    top: -184px;
+    right: 336px;
+    font-size: 19px;
+  }
+
+  .ProgressConfirmationText10stLine{
+    position: relative;
+    top: -208px;
+    right: 60px;
+    font-size: 19px;
+  }
+
+  .ProgressConfirmationText11stLine{
+    position: relative;
+    top: -230px;
+    right: 298px;
+    font-size: 19px;
+  }
+
+  .inquiryFooter2{
+  position: relative ;
+  top : -2800px ;
+  }
+
+  .sendSize2{
+    position: relative;
+    bottom : 10px ;
+    font-size: 20px;
+    z-index: 999;
+  }
+
+  .sendOrBack{
+    display :flex;
+    position : absolute;
+    top: 938px;
+  }
+
+  .sendOrReturn{
+    margin-right : 430px ;
+    margin-top : -80px ;
+  }
+
+  .inquiryFooter3{
+    position: relative ;
+    top : -2450px ;
+  }
+
+  .FooterLine3{
+    position: relative;
+    border-top: 1px solid gray ;
+    text-align: center;
+    margin: 0 auto;
+    top : 3230px ;
+    border-width:1px;
+    width : 92%;
+  }
+
+  .FooterList3{
+    background-color : gray ;
+    opacity: 0.1;
+    position: absolute ;
+    top : 2858px ;
+    height : 500px ;
+    width: 100%;
+    margin : 0 auto ;
+  }
+
+  .contentOfTransmission3{
+    height: 220px;
+    width: 777px;
+    border: solid 0.1px rgba(1, 1, 1, 0.2);
+    text-align: center;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .inquirySendCompletely{
+    font-weight : 900 ;
+    font-size : 20px ;
+  }
+
+  .inquirySendCompletelyLine{
+    border-top: 1px solid gray;
+    text-align: center;
+    margin: 0 auto;
+    border-width: 1px;
+    width: 100%;
+  }
+
+  .thankYouText0{
+    font-size : 15px ;
+    margin-top:10px;
+    margin-right:459px ;
+  }
+
+  .thankYouText1{
+    font-size : 15px ;
+    margin-top:-17px;
+    margin-right:250px ;
+  }
+
+  .thankYouText2{
+    font-size : 15px ;
+    margin-top:-17px;
+    margin-right:220px ;
+  }
+
+  .backToTopButton{
+    z-index: 100;
+    font-size: 17px;
+    color: blue;
+    margin-right:640px ;
+  }
+
+  .Confirmation0{
+    font-size: 19px;
+    margin-right: 626px;
+    margin-top: -12px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .Confirmation1 {
+    font-size: 19px;
+    margin-left: -8x;
+    margin-top: -20px;
+  }
+
+  .Confirmation1{
+    margin-top: -10px;
+    margin-right:600px ;
+  }
+
+  .Confirmation2 {
+    font-size: 19px;
+    margin-left: -615px;
+    padding: 0px 0px 0px 0px;
+  }
+  .Confirmation2{
+    margin-top:-10px ;
+  }
+
+  .Confirmation3{
+    font-size: 19px;
+    margin-top: 10px;
+    /* margin-left: -600px; */
+    padding: 0px 598px 0px 22px;
+  }
+
+  .Confirmation3{
+    margin-top: -6px;
+  }
+
+  .Confirmation4{
+    font-size: 20px;
+    margin-top: -9px;
+    text-align: left;
+    margin-left: 30px;
+    white-space: normal ;
+    word-break: break-word;
+  }
+
+  .entryDetail{
+    height: 200px;/** */
+    width : 750px;
+    font-size : 20px;
+    border-radius: 10px;
+    border: solid 0.1px rgba(1, 1, 1, 0.2);
+    resize: none;
+    overflow: hidden;
+    word-break: break-word;
+    padding-left : 20px;
+    padding-right : 20px;
+    z-index: 999;
+  }
+
+  .detail{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    border-width:1px;
+    top: 190px;
+    z-index: 100 ;
+  }
+
+  .submitButton4{
+    display:block;
+    border-radius: 10px;
+    border: 1px solid black; /* 枠線 */
+    color: white;
+    margin-bottom: 181px;;
+  }
+
+  .submitButton4{
+    display: block;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: #CC0066;
+    height: 45px;
+    text-align: center;
+    width: 380px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right:10px ;
+    margin-left : 10px ;
+  }
+
+  .submitButton5{
+    display:block;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black ;
+  }
+
+  .submitButton5{
+    height: 45px;
+    width: 380px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right:10px;
+  }
+
+  .submitButton5{
+    display: block;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .nameNote{
+    position: absolute;
+    top: -92px;
+    left : 358px ;
+    color:red ;
+    font-weight: bold;
+  }
+  .phoneticNote{
+      position: absolute;
+      top: -63px;
+      left : 327px ;
+      color:red ;
+      font-weight: bold;
+  }
+  .phoneNumberNote{
+    position: absolute;
+    top: -37px;
+    left : 435px ;
+    color:red ;
+    font-weight: bold;
+  }
+
+  .EmailAddressIsRequired{
+    position: absolute;
+    top: 22px;
+    left : 520px ;
+    color:red ;
+    font-weight: bold;
+  }
+
+
+
+
+  .theContentOfYourInquiryIsEssential{
+    position: absolute;
+    top: -169px;
+    left : 505px ;
+    color:red ;
+    font-weight: bold;
+  }
+
+  .body{
+    width:700px;
+    margin-right: auto;
+    margin-left : auto;
+  }
+
+  .corporateInformation{
+    margin-top:-450px;
+    margin-left:4% ;
+    z-index: 999;
+    padding-top: 10px;
+  }
+
+  .boldWord { font-weight: 900; }
+  .corporateCommunity{
+    margin-top:-350px;
+    margin-left:28% ;
+    z-index: 999;
+    padding-top: 10px;
+  }
+  .corporateHost{
+    margin-top:-265px;
+    margin-left:50% ;
+    z-index: 999;
+    padding-top: 10px;
+  }
+  .corporateSupport{
+    margin-top:-185px;
+    margin-left:73% ;
+    z-index: 999;
+    padding-top: 10px;
+  }
+  .copyrightFreedom{
+    margin-top:160px;
+    margin-left:4% ;
+    z-index: 999;
+    line-height: 5px;
+  }
+
+  .corporateInformationTwo{
+    margin-top:-450px;
+    margin-left:4% ;
+    z-index: 999;
+    padding-top: 10px;
+    text-align: left;
+  }
+  .boldWord { font-weight: 900; }
+  .corporateCommunityTwo{
+    margin-top:-350px;
+    margin-left:28% ;
+    z-index: 999;
+    padding-top: 10px;
+    text-align: left;
+  }
+  .corporateHostTwo{
+    margin-top:-265px;
+    margin-left:50% ;
+    z-index: 999;
+    padding-top: 10px;
+    text-align: left;
+  }
+  .corporateSupportTwo{
+    margin-top:-190px;
+    margin-left:73% ;
+    z-index: 999;
+    padding-top: 10px;
+    text-align: left;
+  }
+  .copyrightFreedomTwo{
+    margin-top:150px;
+    margin-left:4% ;
+    z-index: 999;
+    line-height: 5px;
+    text-align: left;
+  }
