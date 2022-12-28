@@ -1,0 +1,8 @@
+
+/* 上の部分は気にせずここから書く */
+#box {
+  width: 320px;
+  height: 180px;
+  background-color: #aaa;
+  margin-top: 40px;
+}

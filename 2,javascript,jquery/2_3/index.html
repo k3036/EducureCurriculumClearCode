@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>アニメーション</title>
+  <link rel="stylesheet" type="text/css" href="base.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <div id="button"onclick="A()">
+    <p>button</p>
+  </div><!-- button -->
+
+  <script>
+   $(button).on("click", function() {
+    // ここに処理を記述
+    $('#button').animate({
+     margin: 200,
+     marginRight:300,
+   })
+  });
+  </script>
+</head>
+<body>
+ 
+</body>
+</html>
